@@ -7,6 +7,26 @@ data → deterministic metrics → finding → money impact → evidence + confi
      → recommended action → recorded outcome → recovered value
 ```
 
+![Feed: findings ranked by money](docs/feed.png)
+
+Screenshots show demo mode: three venues of a made-up restaurant group with sample data. The assistant's answer comes from the live model.
+
+## Screens
+
+A finding shows the formula, the inputs and the data source next to the amount:
+
+![Finding with evidence](docs/finding.png)
+
+The assistant answers from the same facts as the other screens and lists what it read:
+
+![Assistant](docs/assistant.png)
+
+The feed on a phone:
+
+<p align="center">
+  <img src="docs/mobile.png" width="300" alt="Feed on a 375 px phone screen">
+</p>
+
 ## What it does
 
 - Pulls sales and cost data from iikoServer through a connector.
